@@ -1,0 +1,69 @@
+2026-09-25 03:56:44,459 - src.config_loader - INFO - Loading config from config/config.yaml
+2026-09-25 04:00:14,239 - src.config_loader - INFO - Loading config from config/config.yaml
+2026-09-25 04:00:14,241 - src.model_setup - INFO - Loading tokenizer: meta-llama/Llama-3.2-1B-Instruct
+2026-09-25 05:13:19,791 - src.config_loader - INFO - Loading config from config/config.yaml
+2026-09-25 05:13:19,797 - src.model_setup - INFO - Loading tokenizer: meta-llama/Llama-3.2-1B-Instruct
+2026-09-25 05:13:28,135 - src.model_setup - INFO - Loading base model in 4-bit: meta-llama/Llama-3.2-1B-Instruct
+2026-09-25 05:24:01,363 - src.model_setup - INFO - Base model loaded successfully
+2026-09-25 05:24:01,363 - src.model_setup - INFO - Preparing quantized model for k-bit training
+2026-09-25 05:24:01,936 - src.model_setup - INFO - Attaching LoRA adapters with r=16, alpha=32
+2026-09-25 05:24:02,440 - src.model_setup - INFO - Trainable params: 11,272,192 / 760,547,328 (1.48%)
+2026-09-25 05:24:02,441 - src.data_loader - INFO - Loading train data from data/train.jsonl
+2026-09-25 05:24:06,192 - src.data_loader - INFO - Loading val data from data/val.jsonl
+2026-09-25 05:24:06,746 - src.data_loader - INFO - Train samples: 652, Val samples: 81
+2026-09-25 05:24:06,747 - src.data_formatter - INFO - Formatting dataset into chat-style training text
+2026-09-25 05:24:07,344 - src.data_formatter - INFO - Formatting dataset into chat-style training text
+2026-09-25 05:24:07,672 - src.tokenize_data - INFO - Tokenizing dataset with max_length=512
+2026-09-25 05:24:08,650 - src.tokenize_data - INFO - Tokenizing dataset with max_length=512
+2026-09-25 05:24:09,023 - src.training_args_builder - INFO - Building training arguments
+2026-09-25 05:29:27,226 - src.config_loader - INFO - Loading config from config/config.yaml
+2026-09-25 05:29:27,232 - src.model_setup - INFO - Loading tokenizer: meta-llama/Llama-3.2-1B-Instruct
+2026-09-25 05:29:31,969 - src.model_setup - INFO - Loading base model in 4-bit: meta-llama/Llama-3.2-1B-Instruct
+2026-09-25 05:29:43,918 - src.model_setup - INFO - Base model loaded successfully
+2026-09-25 05:29:43,918 - src.model_setup - INFO - Preparing quantized model for k-bit training
+2026-09-25 05:29:44,142 - src.model_setup - INFO - Attaching LoRA adapters with r=16, alpha=32
+2026-09-25 05:29:44,440 - src.model_setup - INFO - Trainable params: 11,272,192 / 760,547,328 (1.48%)
+2026-09-25 05:29:44,441 - src.data_loader - INFO - Loading train data from data/train.jsonl
+2026-09-25 05:29:45,846 - src.data_loader - INFO - Loading val data from data/val.jsonl
+2026-09-25 05:29:46,196 - src.data_loader - INFO - Train samples: 652, Val samples: 81
+2026-09-25 05:29:46,196 - src.data_formatter - INFO - Formatting dataset into chat-style training text
+2026-09-25 05:29:46,537 - src.data_formatter - INFO - Formatting dataset into chat-style training text
+2026-09-25 05:29:46,873 - src.tokenize_data - INFO - Tokenizing dataset with max_length=512
+2026-09-25 05:29:47,219 - src.tokenize_data - INFO - Tokenizing dataset with max_length=512
+2026-09-25 05:29:47,485 - src.training_args_builder - INFO - Building training arguments
+2026-09-25 05:29:47,489 - src.trainer_setup - INFO - Building trainer
+2026-09-25 05:29:47,848 - src.trainer_setup - INFO - Starting training
+2026-09-25 05:32:41,914 - src.config_loader - INFO - Loading config from config/config.yaml
+2026-09-25 05:32:41,923 - src.model_setup - INFO - Loading tokenizer: meta-llama/Llama-3.2-1B-Instruct
+2026-09-25 05:32:46,230 - src.model_setup - INFO - Loading base model in 4-bit: meta-llama/Llama-3.2-1B-Instruct
+2026-09-25 05:32:57,565 - src.model_setup - INFO - Base model loaded successfully
+2026-09-25 05:32:57,565 - src.model_setup - INFO - Preparing quantized model for k-bit training
+2026-09-25 05:32:57,832 - src.model_setup - INFO - Attaching LoRA adapters with r=16, alpha=32
+2026-09-25 05:32:58,197 - src.model_setup - INFO - Trainable params: 11,272,192 / 760,547,328 (1.48%)
+2026-09-25 05:32:58,197 - src.data_loader - INFO - Loading train data from data/train.jsonl
+2026-09-25 05:32:59,406 - src.data_loader - INFO - Loading val data from data/val.jsonl
+2026-09-25 05:32:59,728 - src.data_loader - INFO - Train samples: 652, Val samples: 81
+2026-09-25 05:32:59,728 - src.data_formatter - INFO - Formatting dataset into chat-style training text
+2026-09-25 05:33:00,024 - src.data_formatter - INFO - Formatting dataset into chat-style training text
+2026-09-25 05:33:00,297 - src.tokenize_data - INFO - Tokenizing dataset with max_length=512
+2026-09-25 05:33:00,945 - src.tokenize_data - INFO - Tokenizing dataset with max_length=512
+2026-09-25 05:33:01,209 - src.training_args_builder - INFO - Building training arguments
+2026-09-25 05:33:01,211 - src.trainer_setup - INFO - Building trainer
+2026-09-25 05:33:01,226 - src.trainer_setup - INFO - Starting training
+2026-09-25 05:52:37,011 - src.config_loader - INFO - Loading config from config/config.yaml
+2026-09-25 05:52:37,019 - src.model_setup - INFO - Loading tokenizer: meta-llama/Llama-3.2-1B-Instruct
+2026-09-25 05:52:41,583 - src.model_setup - INFO - Loading base model in 4-bit: meta-llama/Llama-3.2-1B-Instruct
+2026-09-25 05:52:48,009 - src.model_setup - INFO - Base model loaded successfully
+2026-09-25 05:52:48,009 - src.model_setup - INFO - Preparing quantized model for k-bit training
+2026-09-25 05:52:48,073 - src.model_setup - INFO - Attaching LoRA adapters with r=16, alpha=32
+2026-09-25 05:52:48,636 - src.model_setup - INFO - Trainable params: 11,272,192 / 760,547,328 (1.48%)
+2026-09-25 05:52:48,637 - src.data_loader - INFO - Loading train data from data/train.jsonl
+2026-09-25 05:52:50,383 - src.data_loader - INFO - Loading val data from data/val.jsonl
+2026-09-25 05:52:50,945 - src.data_loader - INFO - Train samples: 652, Val samples: 81
+2026-09-25 05:52:50,945 - src.data_formatter - INFO - Formatting dataset into chat-style training text
+2026-09-25 05:52:51,285 - src.data_formatter - INFO - Formatting dataset into chat-style training text
+2026-09-25 05:52:51,580 - src.tokenize_data - INFO - Tokenizing dataset with max_length=512
+2026-09-25 05:52:51,936 - src.tokenize_data - INFO - Tokenizing dataset with max_length=512
+2026-09-25 05:52:52,269 - src.training_args_builder - INFO - Building training arguments
+2026-09-25 05:52:52,376 - src.trainer_setup - INFO - Building trainer
+2026-09-25 05:52:52,452 - src.trainer_setup - INFO - Starting training
