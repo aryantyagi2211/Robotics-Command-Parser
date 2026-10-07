@@ -1,0 +1,95 @@
+2026-10-07 09:52:39,530 - src.config_loader - INFO - Loading config from config/config.yaml
+2026-10-07 09:52:39,536 - src.inference - INFO - Loading base model: meta-llama/Llama-3.2-1B-Instruct
+2026-10-07 09:52:52,369 - src.inference - INFO - Attaching trained LoRA adapter from: checkpoints/checkpoint-123
+2026-10-07 09:52:53,772 - src.inference - INFO - Trained model ready for evaluation
+2026-10-07 09:52:53,773 - __main__ - INFO - Checkpoint loaded successfully — ready for evaluation
+2026-10-07 09:52:53,773 - src.generate_predictions - INFO - Loading test set from data/test.jsonl
+2026-10-07 09:52:55,338 - src.generate_predictions - INFO - Test examples: 82
+2026-10-07 09:52:55,338 - src.generate_predictions - INFO - Generating predictions on test set
+2026-10-07 09:54:09,040 - src.generate_predictions - INFO - Generated 10/82 predictions
+2026-10-07 09:55:16,968 - src.generate_predictions - INFO - Generated 20/82 predictions
+2026-10-07 09:56:16,956 - src.generate_predictions - INFO - Generated 30/82 predictions
+2026-10-07 09:57:17,102 - src.generate_predictions - INFO - Generated 40/82 predictions
+2026-10-07 09:58:22,629 - src.generate_predictions - INFO - Generated 50/82 predictions
+2026-10-07 09:59:27,375 - src.generate_predictions - INFO - Generated 60/82 predictions
+2026-10-07 10:00:53,085 - src.generate_predictions - INFO - Generated 70/82 predictions
+2026-10-07 10:01:47,050 - src.generate_predictions - INFO - Generated 80/82 predictions
+2026-10-07 10:02:05,828 - __main__ - INFO - Generated predictions for 82 test examples
+2026-10-07 10:02:05,829 - src.parse_and_compare - INFO - Parsing model outputs as JSON
+2026-10-07 10:02:05,831 - src.parse_and_compare - INFO - Valid JSON outputs: 82/82
+2026-10-07 10:02:05,831 - __main__ - INFO - Sample input: Make sure to stack the miniature orange leather spoon on the counter in the office.
+2026-10-07 10:02:05,831 - __main__ - INFO - Sample expected: {'action': 'stack', 'object': 'miniature orange leather spoon', 'target': 'counter', 'location': 'office', 'quantity': None, 'attributes': {}}
+2026-10-07 10:02:05,831 - __main__ - INFO - Sample predicted (raw): {"action": "stack", "object": "miniature orange leather spoon", "target": "counter", "location": "office", "quantity": null, "attributes": {}}}
+2026-10-07 10:02:05,832 - __main__ - INFO - Sample valid JSON: True
+2026-10-07 10:02:05,832 - src.parse_and_compare - INFO - Comparing predictions to ground truth
+2026-10-07 10:02:05,832 - __main__ - INFO - Exact match: 43/82 (52.4%)
+2026-10-07 10:08:24,639 - src.config_loader - INFO - Loading config from config/config.yaml
+2026-10-07 10:08:24,645 - src.inference - INFO - Loading base model: meta-llama/Llama-3.2-1B-Instruct
+2026-10-07 10:08:33,642 - src.inference - INFO - Attaching trained LoRA adapter from: checkpoints/checkpoint-123
+2026-10-07 10:08:34,338 - src.inference - INFO - Trained model ready for evaluation
+2026-10-07 10:08:34,339 - __main__ - INFO - Checkpoint loaded successfully — ready for evaluation
+2026-10-07 10:08:34,339 - src.generate_predictions - INFO - Loading test set from data/test.jsonl
+2026-10-07 10:08:35,358 - src.generate_predictions - INFO - Test examples: 82
+2026-10-07 10:08:35,358 - src.generate_predictions - INFO - Generating predictions on test set
+2026-10-07 10:09:44,193 - src.generate_predictions - INFO - Generated 10/82 predictions
+2026-10-07 10:10:50,986 - src.generate_predictions - INFO - Generated 20/82 predictions
+2026-10-07 10:11:50,103 - src.generate_predictions - INFO - Generated 30/82 predictions
+2026-10-07 10:12:52,807 - src.generate_predictions - INFO - Generated 40/82 predictions
+2026-10-07 10:14:01,586 - src.generate_predictions - INFO - Generated 50/82 predictions
+2026-10-07 10:15:10,571 - src.generate_predictions - INFO - Generated 60/82 predictions
+2026-10-07 10:16:36,882 - src.generate_predictions - INFO - Generated 70/82 predictions
+2026-10-07 10:17:31,784 - src.generate_predictions - INFO - Generated 80/82 predictions
+2026-10-07 10:17:51,223 - __main__ - INFO - Generated predictions for 82 test examples
+2026-10-07 10:17:51,223 - src.parse_and_compare - INFO - Parsing model outputs as JSON
+2026-10-07 10:17:51,225 - src.parse_and_compare - INFO - Valid JSON outputs: 82/82
+2026-10-07 10:17:51,225 - __main__ - INFO - Sample input: Make sure to stack the miniature orange leather spoon on the counter in the office.
+2026-10-07 10:17:51,225 - __main__ - INFO - Sample expected: {'action': 'stack', 'object': 'miniature orange leather spoon', 'target': 'counter', 'location': 'office', 'quantity': None, 'attributes': {}}
+2026-10-07 10:17:51,225 - __main__ - INFO - Sample predicted (raw): {"action": "stack", "object": "miniature orange leather spoon", "target": "counter", "location": "office", "quantity": null, "attributes": {}}}
+2026-10-07 10:17:51,225 - __main__ - INFO - Sample valid JSON: True
+2026-10-07 10:17:51,226 - src.parse_and_compare - INFO - Comparing predictions to ground truth
+2026-10-07 10:17:51,227 - __main__ - INFO - Exact match: 43/82 (52.4%)
+2026-10-07 10:17:51,227 - __main__ - INFO - Field-level accuracy:
+2026-10-07 10:17:51,227 - __main__ - INFO -   action: 136/136 (100.0%)
+2026-10-07 10:17:51,227 - __main__ - INFO -   object: 135/136 (99.3%)
+2026-10-07 10:17:51,228 - __main__ - INFO -   target: 136/136 (100.0%)
+2026-10-07 10:17:51,228 - __main__ - INFO -   location: 136/136 (100.0%)
+2026-10-07 10:17:51,228 - __main__ - INFO -   quantity: 136/136 (100.0%)
+2026-10-07 10:17:51,228 - __main__ - INFO -   attributes: 80/136 (58.8%)
+2026-10-07 10:17:51,228 - __main__ - INFO - Simple/medium commands: 37/46 (80.4%)
+2026-10-07 10:17:51,229 - __main__ - INFO - Complex (multi-action) commands: 6/36 (16.7%)
+2026-10-07 10:32:41,918 - src.config_loader - INFO - Loading config from config/config.yaml
+2026-10-07 10:32:41,929 - src.inference - INFO - Loading base model: meta-llama/Llama-3.2-1B-Instruct
+2026-10-07 10:32:50,955 - src.inference - INFO - Attaching trained LoRA adapter from: checkpoints/checkpoint-123
+2026-10-07 10:32:51,690 - src.inference - INFO - Trained model ready for evaluation
+2026-10-07 10:32:51,691 - __main__ - INFO - Checkpoint loaded successfully — ready for evaluation
+2026-10-07 10:32:51,692 - src.generate_predictions - INFO - Loading test set from data/test.jsonl
+2026-10-07 10:32:53,401 - src.generate_predictions - INFO - Test examples: 82
+2026-10-07 10:32:53,401 - src.generate_predictions - INFO - Generating predictions on test set
+2026-10-07 10:34:09,442 - src.generate_predictions - INFO - Generated 10/82 predictions
+2026-10-07 10:35:22,040 - src.generate_predictions - INFO - Generated 20/82 predictions
+2026-10-07 10:36:28,719 - src.generate_predictions - INFO - Generated 30/82 predictions
+2026-10-07 10:37:34,837 - src.generate_predictions - INFO - Generated 40/82 predictions
+2026-10-07 10:38:50,951 - src.generate_predictions - INFO - Generated 50/82 predictions
+2026-10-07 10:39:57,636 - src.generate_predictions - INFO - Generated 60/82 predictions
+2026-10-07 10:41:23,714 - src.generate_predictions - INFO - Generated 70/82 predictions
+2026-10-07 10:42:18,636 - src.generate_predictions - INFO - Generated 80/82 predictions
+2026-10-07 10:42:40,816 - __main__ - INFO - Generated predictions for 82 test examples
+2026-10-07 10:42:40,817 - src.parse_and_compare - INFO - Parsing model outputs as JSON
+2026-10-07 10:42:40,819 - src.parse_and_compare - INFO - Valid JSON outputs: 82/82
+2026-10-07 10:42:40,819 - __main__ - INFO - Sample input: Make sure to stack the miniature orange leather spoon on the counter in the office.
+2026-10-07 10:42:40,819 - __main__ - INFO - Sample expected: {'action': 'stack', 'object': 'miniature orange leather spoon', 'target': 'counter', 'location': 'office', 'quantity': None, 'attributes': {}}
+2026-10-07 10:42:40,819 - __main__ - INFO - Sample predicted (raw): {"action": "stack", "object": "miniature orange leather spoon", "target": "counter", "location": "office", "quantity": null, "attributes": {}}}
+2026-10-07 10:42:40,820 - __main__ - INFO - Sample valid JSON: True
+2026-10-07 10:42:40,820 - src.parse_and_compare - INFO - Comparing predictions to ground truth
+2026-10-07 10:42:40,821 - __main__ - INFO - Exact match: 43/82 (52.4%)
+2026-10-07 10:42:40,821 - __main__ - INFO - Field-level accuracy:
+2026-10-07 10:42:40,821 - __main__ - INFO -   action: 136/136 (100.0%)
+2026-10-07 10:42:40,821 - __main__ - INFO -   object: 135/136 (99.3%)
+2026-10-07 10:42:40,822 - __main__ - INFO -   target: 136/136 (100.0%)
+2026-10-07 10:42:40,822 - __main__ - INFO -   location: 136/136 (100.0%)
+2026-10-07 10:42:40,822 - __main__ - INFO -   quantity: 136/136 (100.0%)
+2026-10-07 10:42:40,822 - __main__ - INFO -   attributes: 80/136 (58.8%)
+2026-10-07 10:42:40,823 - __main__ - INFO - Simple/medium commands: 37/46 (80.4%)
+2026-10-07 10:42:40,823 - __main__ - INFO - Complex (multi-action) commands: 6/36 (16.7%)
+2026-10-07 10:42:40,963 - src.save_eval_report - INFO - Saved JSON report to reports/eval_report_20261007_104240.json
+2026-10-07 10:42:41,003 - src.save_eval_report - INFO - Saved markdown report to reports/eval_report_20261007_104240.md
